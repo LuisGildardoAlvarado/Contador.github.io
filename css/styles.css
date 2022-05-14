@@ -96,3 +96,13 @@ body{
 .footer a:hover{
     background-color: #04724D;
 }
+
+@media only screen and (max-width:600px){
+    #count{
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+        flex-direction: column;
+    }
+    
+}
