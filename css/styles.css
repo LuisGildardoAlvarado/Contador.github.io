@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    font-family: 'Abel', sans-serif;
+    color: #F4F4F9;
+}
+
+/* header */
+.cover-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+
+    min-height: 100vh;
+}
+
+.header img{
+    width: 150px;
+}
+
+.title{
+    font-size: 4em;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+.message{
+    color: #04724D;
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+/* Cuenta */
+
+#count{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.simply-section{
+    background-color: #F4F4F9;
+    color: #000000;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simply-amount{
+    display: block;
+    font-size: 50px;
+    color: #04724D;
+    font-weight: 800;
+}
+
+.simply-word{
+    color: #000000;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+/* footer */
+.footer{
+    margin-top: 2em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer a{
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+    font-size: 3em;
+    border-radius: 50px;
+    color: #F4F4F9;
+    border: 3px solid #04724D;
+}
+
+.footer a:hover{
+    background-color: #04724D;
+}
